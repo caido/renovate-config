@@ -1,0 +1,12 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "timezone": "America/New_York",
+    "extends": [
+        "config:recommended",
+        "github>caido/renovate-config:security"
+    ],
+    "stabilityDays": 14,
+    "schedule": ["every weekend"],
+    "labels": ["dependency"],
+    "reviewersFromCodeComments": true
+}
