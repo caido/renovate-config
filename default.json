@@ -1,12 +1,15 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Default Renovate config to be used for all Caido projects",
     "timezone": "America/New_York",
     "extends": [
         "config:recommended",
         "github>caido/renovate-config:security"
     ],
     "stabilityDays": 14,
-    "schedule": ["every weekend"],
+    "schedule": ["before 8am on Monday"],
     "labels": ["dependency"],
-    "reviewersFromCodeComments": true
+    "reviewersFromCodeComments": true,
+    "prConcurrentLimit": 5,
+    "prHourlyLimit": 0
 }

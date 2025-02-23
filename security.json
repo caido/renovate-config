@@ -1,5 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Security-related Renovate config",
     "vulnerabilityAlerts": {
         "labels": ["security"]
     },
