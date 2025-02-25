@@ -9,7 +9,7 @@
     "stabilityDays": 14,
     "schedule": ["before 8am on Monday"],
     "labels": ["dependency"],
-    "reviewersFromCodeComments": true,
+    "reviewersFromCodeOwners": true,
     "prConcurrentLimit": 5,
     "prHourlyLimit": 0
 }
